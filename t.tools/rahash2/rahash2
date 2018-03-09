@@ -9,9 +9,6 @@ EXPECT='../../bins/elf/analysis/hello-linux-x86_64: 0x00000000-0x00001a35 entrop
 
 run_test
 
-NAME='rahash2 -a sha1'
-CMDS='!rahash2 -a sha1 ../../bins/elf/analysis/hello-linux-x86_64'
-BROKEN=
 NAME='rahash2 -a md5'
 CMDS='!rahash2 -a md5 ../../bins/elf/analysis/hello-linux-x86_64'
 BROKEN=
